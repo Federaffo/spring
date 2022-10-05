@@ -52,6 +52,6 @@ remove_longer_than: 1024
 
 # <------------------
 # Data: replace DATA below with the root of your AMR 2/3 release folder
-train: DATA/data/amrs/split/training/*.txt
-dev: DATA/data/amrs/split/dev/*.txt
-test: DATA/data/amrs/split/test/*.txt
+train: mydata/train/*.txt
+dev: mydata/dev/*.txt
+test: mydata/test/*.txt
