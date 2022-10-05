@@ -1,0 +1,1807 @@
+# ::snt I pondered deeply , then , over the adventures of the jungle .
+(p / ponder-01
+   :ARG0 (i / i)
+   :ARG1 (a / adventure
+            :location (j / jungle))
+   :ARG1-of (d / deep-02)
+   :time (t / then))
+
+# ::snt Grown - ups never understand anything by themselves , and it is tiresome for children to be always and forever explaining things to them .
+(a / and
+   :op1 (u / understand-01
+           :ARG0 (g / grown-up)
+           :ARG1 (a3 / anything)
+           :time (e2 / ever)
+           :mod (b / by-oneself))
+   :op2 (t / tire-03
+           :ARG0 (e / explain-01
+                    :ARG2 g)))
+
+# ::snt If one gets lost in the night , such knowledge is valuable .
+(v / value-02
+   :ARG1 (k / knowledge
+            :mod (s / such))
+   :condition (g / get-03
+                 :ARG1 (o / one)
+                 :ARG2 (l / lost)))
+
+# ::snt I would try to find out , so , if this was a person of true understanding .
+(t / try-01
+   :ARG0 (i / i)
+   :ARG1 (f / find-out-03
+            :ARG0 i
+            :ARG1 (t4 / truth-value
+                      :polarity-of (u2 / understand-01
+                                       :ARG0 (p / person
+                                                :mod (t2 / this))
+                                       :ARG1-of (t3 / true-01)))))
+
+# ::snt And the grown - up would be greatly pleased to have met such a sensible man .
+# ::snt Here you may see the best portrait that , later , I was able to make of him .
+(p / possible-01
+   :ARG1 (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (p2 / portrait
+                      :ARG1-of (h3 / have-degree-91
+                                   :ARG2 (g / good-02
+                                            :ARG1 p2)
+                                   :ARG3 (m / most)
+                                   :ARG5 (p4 / portrait
+                                             :ARG1-of (m2 / make-01
+                                                          :ARG0 (i / i)
+                                                          :ARG1-of (p3 / possible-01)
+                                                          :time (a / after)))))
+            :location (h2 / here)))
+
+# ::snt Remember , I had crashed in the desert a thousand miles from any inhabited region .
+# ::snt Draw me a sheep ... "
+(d / draw-01
+   :ARG0 (y / you)
+   :ARG1 (s / sheep)
+   :ARG2 (i / i))
+
+# ::snt A boa constrictor is a very dangerous creature , and an elephant is very cumbersome .
+(a / and
+   :op1 (c2 / creature
+            :mod (d2 / dangerous)
+            :domain (b / boa))
+   :op2 (c3 / cumbersome
+            :degree (v2 / very)
+            :domain (e / elephant)))
+
+# ::snt Make me another . "
+(m / make-01
+   :ARG0 (y / you)
+   :ARG1 (a / another)
+   :ARG3 (i / i))
+
+# ::snt It was from words dropped by chance that , little by little , everything was revealed to me .
+(r / reveal-01
+   :ARG0 (w / word
+            :ARG1-of (d / drop-06
+                        :ARG1-of (c / chance-02)))
+   :ARG1 (e / everything)
+   :ARG2 (i / i)
+   :manner (l / little-by-little))
+
+# ::snt " Oh !
+(o / oh)
+
+# ::snt I like my misfortunes to be taken seriously .
+(l / like-02
+   :ARG0 (i / i)
+   :ARG1 (t / take-04
+            :ARG1 (m / misfortune
+                     :poss i)
+            :manner (s / serious-01)))
+
+# ::snt " But if you do n't tie him , "
+(c / contrast-01
+   :ARG2 (t / tie-01
+            :ARG0 (y / you)
+            :ARG1 (h / he)
+            :condition-of (t2 / thing)))
+
+# ::snt I knew very well that in addition to the great planets -- such as the Earth , Jupiter , Mars , Venus -- to which we have given names , there are also hundreds of others , some of which are so small that one has a hard time seeing them through the telescope .
+# ::snt I have serious reason to believe that the planet from which the little prince came is the asteroid known as B-612 .
+(c / cause-01
+   :ARG0 (r / reason
+            :ARG1-of (s / serious-02))
+   :ARG1 (b / believe-01
+            :ARG0 (i / i)
+            :ARG1 (c2 / come-01)))
+
+# ::snt Fortunately , however , for the reputation of Asteroid B-612 , a Turkish dictator made a law that his subjects , under pain of death , should change to European costume .
+(c5 / contrast-01
+    :ARG2 (m / make-01
+             :ARG0 (p3 / person
+                       :ARG0-of (h / have-org-role-91
+                                   :ARG1 (c / country
+                                            :name (n / name))))
+             :ARG1 (l / law)
+             :ARG2-of (f / fortunate-01
+                         :ARG1 (r / reputation
+                                  :poss (p2 / planet)))))
+
+# ::snt What games does he love best ?
+(l / love-01
+   :ARG0 (h / he)
+   :ARG1 (a2 / amr-unknown
+             :mod (g2 / game)
+             :ARG1-of (h2 / have-degree-91
+                          :ARG2 (g / good-02)
+                          :ARG3 (m / most))))
+
+# ::snt Only from these figures do they think they have learned anything about him .
+(t / think-01
+   :ARG0 (t2 / they)
+   :ARG1 (l / learn-01
+            :ARG0 t2
+            :ARG1 (a / anything)
+            :source (f / figure)))
+
+# ::snt If you were to say to the grown - ups : " I saw a beautiful house made of rosy brick , with geraniums in the windows and doves on the roof , " they would not be able to get any idea of that house at all .
+# ::snt If anybody wants a sheep , that is a proof that he exists . "
+(p / prove-01
+   :ARG0 (w / want-01
+            :ARG0 (a / anybody)
+            :ARG1 (s / sheep))
+   :ARG1 (e / exist-01
+            :ARG1 a))
+
+# ::snt They are like that .
+(r / resemble-01
+   :ARG1 (t / they)
+   :ARG2 (t2 / that))
+
+# ::snt But certainly , for us who understand life , figures are a matter of indifference .
+# ::snt I should have liked to begin this story in the fashion of the fairy - tales .
+(l / like-02
+   :ARG0 (i / i)
+   :ARG1 (b / begin-01
+            :ARG0 i
+            :ARG1 (s / story)
+            :manner (f / fashion)))
+
+# ::snt For I do not want any one to read my book carelessly .
+(c / cause-01
+   :ARG0 (w / want-01
+            :ARG0 (i / i)
+            :ARG1 (r / read-01)))
+
+# ::snt Six years have already passed since my friend went away from me , with his sheep .
+(g / go-02
+   :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                        :ARG1 (i / i)
+                        :ARG2 (f / friend)))
+   :direction (a / away
+                 :op1 i)
+   :accompanier (s / sheep
+                   :poss p)
+   :time (b / before
+            :op1 (n / now)
+            :quant (t / temporal-quantity))
+   :time (a3 / already))
+
+# ::snt It is hard to take up drawing again at my age , when I have never made any pictures except those of the boa constrictor from the outside and the boa constrictor from the inside , since I was six .
+(h / hard-02
+   :ARG1 (t / take-up-31
+            :ARG0 (i / i
+                     :ARG1-of (a3 / age-01
+                                  :op1-of (s / since
+                                             :time-of (m / make-01
+                                                         :ARG1 (p / picture
+                                                                  :mod (a5 / any)
+                                                                  :ARG2-of (e2 / except-01
+                                                                               :ARG1 (a6 / and
+                                                                                         :op1 (p2 / picture)
+                                                                                         :op2 (p3 / picture))))
+                                                         :time (e / ever)))))
+            :ARG1 (d / draw-01)
+            :mod (a / again))
+   :ARG1-of (c / cause-01))
+
+# ::snt I shall certainly try to make my portraits as true to life as possible .
+(t / try-01
+   :ARG0 (i / i)
+   :ARG1 (m / make-02
+            :ARG0 i
+            :ARG1 (h / have-degree-91))
+   :mod (c / certain))
+
+# ::snt One drawing goes along all right , and another has no resemblance to its subject .
+(a / and
+   :op1 (g / go-06
+           :ARG1 (p2 / picture
+                     :ARG1-of (d / draw-01))
+           :ARG2 (a2 / along)
+           :mod (a3 / all-right))
+   :op2 (r2 / resemble-01
+            :ARG1 (p / picture
+                     :ARG1-of (d2 / draw-01))
+            :ARG2 (s / subject
+                     :poss p)))
+
+# ::snt And I feel some doubts about the color of his costume .
+(a / and
+   :op2 (f / feel-01
+           :ARG0 (i / i)
+           :ARG1 (d / doubt-01
+                    :ARG0 i)))
+
+# ::snt Perhaps I am a little like the grown - ups .
+(r / resemble-01
+   :ARG1 (i / i)
+   :ARG2 (g / grown-up)
+   :mod (p / perhaps)
+   :quant (l / little))
+
+# ::snt This time , once more , I had the sheep to thank for it .
+(o / obligate-01
+   :ARG2 (t / thank-01
+            :ARG0 (i / i)
+            :ARG1 (s / sheep)
+            :ARG2 (i2 / it))
+   :time (t2 / time
+             :mod (t3 / this))
+   :mod (a / again))
+
+# ::snt The idea of the herd of elephants made the little prince laugh .
+(m / make-02
+   :ARG0 (i / idea
+            :topic (h / herd
+                      :consist-of (e / elephant)))
+   :ARG1 (l / laugh-01
+            :ARG0 (p / prince)))
+
+# ::snt " Children , "
+(c2 / child)
+
+# ::snt I say plainly , " watch out for the baobabs ! "
+(s / say-01
+   :ARG0 (i / i)
+   :ARG1 (w / watch-out-02
+            :ARG0 (y / you)
+            :ARG1 (b / baobab))
+   :manner (p / plain))
+
+# ::snt The reply is simple .
+(s / simple-02
+   :ARG1 (t / thing
+            :ARG2-of (r / reply-01)))
+
+# ::snt When I made the drawing of the baobabs I was carried beyond myself by the inspiring force of urgent necessity .
+(c / carry-01
+   :ARG0 (f / force-01
+            :ARG0 (n / necessity)
+            :ARG0-of (i2 / inspire-01))
+   :ARG1 (i / i)
+   :destination (b / beyond
+                   :op1 i)
+   :time (d / draw-01
+            :ARG0 i
+            :ARG1 (b2 / baobab)))
+
+# ::snt Oh , little prince !
+(p / prince
+   :mod (l / little))
+
+# ::snt " For the sunset .
+(w / wait-01
+   :ARG2 (s / sunset))
+
+# ::snt We must wait until it is time . "
+(o / obligate-01
+   :ARG2 (w2 / wait-01
+             :ARG1 (w / we)
+             :duration (u / until)))
+
+# ::snt At first you seemed to be very much surprised .
+(s / seem-01
+   :ARG1 (s2 / surprise-01
+             :ARG1 (y / you)
+             :degree (m / much))
+   :time (a / at-first))
+
+# ::snt Everybody knows that when it is noon in the United States the sun is setting over France .
+(k / know-01
+   :ARG0 (e / everybody)
+   :ARG1 (s / set-11
+            :ARG1 (s2 / sun)
+            :location (c2 / country)
+            :time (d / date-entity)))
+
+# ::snt And a little later you added : " You know -- one loves the sunset , when one is so sad ... "
+(a / and
+   :op1 (a2 / add-01
+            :ARG0 (y / you)
+            :ARG1 (l3 / love-01)
+            :time (a3 / after)))
+
+# ::snt But the little prince made no reply .
+(c / contrast-01
+   :ARG2 (r / reply-01
+            :ARG0 (p / prince)))
+
+# ::snt On the fifth day -- again , as always , it was thanks to the sheep -- the secret of the little prince 's life was revealed to me .
+(r / reveal-01
+   :ARG0 (s / sheep
+            :ARG1-of (t / thank-01))
+   :ARG1 (s2 / secret
+             :poss (l / life))
+   :ARG2 (i / i)
+   :time (d / day
+            :ord (o / ordinal-entity))
+   :mod (a / again)
+   :time (a2 / always))
+
+# ::snt Do n't you see - - I am very busy with matters of consequence ! "
+(s / see-01
+   :ARG0 (y / you)
+   :ARG1 (b / busy-01
+            :ARG1 (i / i)
+            :ARG2 (m / matter
+                     :ARG1-of (c / consequential-01))
+            :degree (v / very))
+   :ARG1-of (r / request-confirmation-91))
+
+# ::snt That made me a little ashamed .
+(s / shame-01
+   :ARG0 (t / that)
+   :ARG1 (i / i)
+   :degree (l / little))
+
+# ::snt He tossed his golden curls in the breeze .
+(t / toss-01
+   :ARG0 (h / he)
+   :ARG1 (c / curl
+            :poss h
+            :mod (g / golden))
+   :location (b / breeze))
+
+# ::snt " The flowers have been growing thorns for millions of years .
+(g / grow-03
+   :ARG0 (f / flower)
+   :ARG1 (t / thorn)
+   :duration (m / multiple
+                :op1 (t2 / temporal-quantity)))
+
+# ::snt The little prince , who was present at the first appearance of a huge bud , felt at once that some sort of miraculous apparition must emerge from it .
+# ::snt She did not wish to go out into the world all rumpled , like the field poppies .
+(w / wish-01
+   :ARG0 (s / she
+            :ARG1-of (r / rumple-02
+                        :mod (a / all))
+            :ARG1-of (r2 / resemble-01
+                         :ARG2 (p / poppy
+                                  :mod (f / field))))
+   :ARG1 (g / go-out-17
+            :ARG0 s
+            :destination (w2 / world)))
+
+# ::snt My petals are still all disarranged ... "
+(a3 / arrange-01
+    :ARG1 (p2 / petal
+              :part-of (i / i)
+              :mod (a4 / all))
+    :mod (s4 / still))
+
+# ::snt " I am not at all afraid of tigers , " she went on , " but I have a horror of drafts .
+(g / go-on-25
+   :ARG0 (s / she)
+   :ARG1 (c / contrast-01
+            :ARG1 (f / fear-01
+                     :ARG0 s)
+            :ARG2 (a2 / abhor-01
+                      :ARG0 s)))
+
+# ::snt She could not have known anything of any other worlds .
+(p / possible-01
+   :ARG1 (k / know-01
+            :ARG0 (s / she)
+            :ARG1 (a / anything)))
+
+# ::snt And he continued his confidences : " The fact is that I did not know how to understand anything !
+(a / and
+   :op1 (c / continue-02
+           :ARG0 (h / he
+                    :ARG0-of (u / understand-01
+                                :ARG1 (a2 / anything)))
+           :ARG1 (c2 / confide-01
+                     :ARG0 h)))
+
+# ::snt Chapter 9 .
+(c / chapter)
+
+# ::snt Try to be happy ... "
+(t / try-01
+   :ARG0 (y / you)
+   :ARG1 (h / happy-01
+            :ARG1 y))
+
+# ::snt He did not understand this quiet sweetness .
+(u / understand-01
+   :ARG0 (h / he)
+   :ARG1 (s / sweet-05
+            :ARG1 (t / this)
+            :ARG1-of (q / quiet-04)))
+
+# ::snt Try to be happy ... let the glass globe be .
+# ::snt " But the wind - - "
+(c / contrast-01
+   :ARG2 (w / wind))
+
+# ::snt " Well , I must endure the presence of two or three caterpillars if I wish to become acquainted with the butterflies .
+(h / have-concession-91
+   :ARG2 (o / obligate-01
+            :ARG1 (i / i)
+            :ARG2 (e / endure-01
+                     :ARG1 i)))
+
+# ::snt It seems that they are very beautiful .
+(s / seem-01
+   :ARG1 (b / beautiful-02
+            :ARG1 (t2 / they)
+            :degree (v2 / very)))
+
+# ::snt And , naïvely , she showed her four thorns .
+(s / show-01
+   :ARG0 (s2 / she
+             :part t)
+   :ARG1 (t / thorn)
+   :manner (n / naive))
+
+# ::snt You have decided to go away .
+(d / decide-01
+   :ARG0 (y / you)
+   :ARG1 (g / go-02
+            :ARG0 y
+            :direction (a / away)))
+
+# ::snt He found himself in the neighborhood of the asteroids 325 , 326 , 327 , 328 , 329 , and 330 .
+(f / find-out-03
+   :ARG0 (h / he)
+   :ARG1 (b / be-located-at-91
+            :ARG1 h
+            :ARG2 (n / neighborhood
+                     :location-of (a3 / and
+                                      :op1 (a4 / asteroid
+                                               :name (n2 / name))
+                                      :op2 (a5 / asteroid
+                                               :name (n3 / name))
+                                      :op3 (a6 / asteroid
+                                               :name (n4 / name))
+                                      :op4 (a7 / asteroid
+                                               :name (n5 / name))
+                                      :op5 (a8 / asteroid
+                                               :name (n6 / name))
+                                      :op6 (a9 / asteroid
+                                               :name (n7 / name))))))
+
+# ::snt He began , therefore , by visiting them , in order to add to his knowledge .
+(b / begin-01
+   :ARG0 (h / he)
+   :ARG2 (v / visit-01
+            :ARG0 h
+            :ARG1 (t2 / they))
+   :mod (t / therefore)
+   :purpose (a / add-02
+               :ARG0 v
+               :ARG2 (k / knowledge
+                        :poss h)))
+
+# ::snt To them , all men are subjects .
+(o / opine-01
+   :ARG0 (t2 / they)
+   :ARG1 (s2 / subject
+             :domain (m2 / man)))
+
+# ::snt It is an order . "
+(o2 / order-01
+    :ARG2 (i2 / it))
+
+# ::snt " That frightens me ...
+(f / frighten-01
+   :ARG0 (t / that)
+   :ARG1 (i / i))
+
+# ::snt For what the king fundamentally insisted upon was that his authority should be respected .
+(i / insist-01
+   :ARG0 (k / king)
+   :ARG1 (r / respect-01
+            :ARG1 (a / authority
+                     :poss k))
+   :mod (f / fundamental))
+
+# ::snt He tolerated no disobedience .
+(t / tolerate-01
+   :ARG0 (h / he)
+   :ARG1 (d / disobey-01
+            :ARG1 h))
+
+# ::snt The planet was tiny .
+(t / tiny
+   :domain (p / planet))
+
+# ::snt " Sire , " he said to him , " I beg that you will excuse my asking you a question - - "
+(s / say-01
+   :ARG0 (h / he)
+   :ARG1 (b / beg-01
+            :ARG0 h
+            :ARG1 (p / person
+                     :ARG1-of (t / title-01
+                                 :ARG2 (s2 / sire)))
+            :ARG2 (e / excuse-01
+                     :ARG0 p
+                     :ARG1 h))
+   :ARG2 p)
+
+# ::snt " They obey instantly .
+(o / obey-01
+   :ARG0 (t / they)
+   :manner (i / instant))
+
+# ::snt " I have not yet made a complete tour of my kingdom .
+(t / tour-01
+   :ARG0 (i / i)
+   :ARG1 (k / kingdom
+            :poss i)
+   :ARG1-of (c / complete-02))
+
+# ::snt There is no room here for a carriage .
+(r / room
+   :purpose (c / carriage)
+   :location (h / here))
+
+# ::snt On that side , as on this , there was nobody at all ...
+(n2 / nobody
+    :location (s / side
+                 :mod (t / that)
+                 :ARG1-of (s2 / same-01
+                              :ARG2 (t2 / this)))
+    :mod (a / at-all))
+
+# ::snt Thus his life will depend on your justice .
+(d / depend-01
+   :ARG0 (l / live-01
+            :ARG0 (h / he))
+   :ARG1 (j / justice
+            :poss (y / you)))
+
+# ::snt But the little prince , having now completed his preparations for departure , had no wish to grieve the old monarch .
+(w / wish-01
+   :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (c / complete-01
+                        :ARG1 (p2 / prepare-02
+                                  :ARG0 p
+                                  :ARG2 (d / depart-01
+                                           :ARG0 p))
+                        :time (n / now)))
+   :ARG1 (g / grieve-01
+            :ARG0 p
+            :ARG1 (m / monarch)))
+
+# ::snt Chapter 11 .
+(c / chapter)
+
+# ::snt " Ah !
+(a / ah)
+
+# ::snt Ah !
+(a / ah)
+
+# ::snt The little prince clapped his hands .
+(c / clap-01
+   :ARG0 (p / prince
+            :mod (l / little)
+            :part h)
+   :ARG1 (h / hand))
+
+# ::snt " To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . "
+(m / mean-01
+   :ARG1 (a / admire-01)
+   :ARG2 (r / regard-01
+            :ARG0 (y / you)
+            :ARG1 (i / i)
+            :ARG2 (m6 / man
+                      :ARG1-of (h2 / have-degree-91
+                                   :ARG2 (h / handsome)
+                                   :ARG3 (m2 / most)
+                                   :ARG5 (p2 / planet
+                                             :mod (t / this)))
+                      :ARG1-of (h3 / have-degree-91
+                                   :ARG2 (w2 / well-09
+                                             :ARG1 (d / dress-01
+                                                      :ARG1 m6))
+                                   :ARG3 (m3 / most)
+                                   :ARG5 p2)
+                      :ARG1-of (h4 / have-degree-91
+                                   :ARG2 (r2 / rich)
+                                   :ARG3 (m4 / most)
+                                   :ARG5 p2)
+                      :ARG1-of (h5 / have-degree-91
+                                   :ARG2 (i2 / intelligent-01
+                                             :ARG1 m6)
+                                   :ARG3 (m5 / most)
+                                   :ARG5 p2))))
+
+# ::snt " Do me this kindness .
+(k2 / kind-01
+    :ARG0 (y / you)
+    :ARG1 (t / this)
+    :ARG2 (i / i))
+
+# ::snt And the little prince went away .
+(a / and
+   :op2 (g / go-02
+           :ARG0 (p / prince)
+           :direction (a2 / away)))
+
+# ::snt " Ashamed of drinking ! "
+(s / shame-01
+   :ARG0 (d / drink-01))
+
+# ::snt Chapter 13 .
+(c / chapter)
+
+# ::snt This man was so much occupied that he did not even raise his head at the little prince 's arrival .
+(h2 / have-degree-91
+    :ARG1 (m / man
+             :mod (t / this)
+             :part h)
+    :ARG2 (o / occupy-01
+             :ARG1 m)
+    :ARG3 (s / so)
+    :ARG6 (r / raise-01
+             :ARG0 m
+             :ARG1 (h / head)
+             :time (a / arrive-01)))
+
+# ::snt Twenty - two and six make twenty - eight .
+(e / equal-01
+   :ARG1 (s / sum-of))
+
+# ::snt Then that makes five - hundred - and - one - million , six - hundred - twenty - two - thousand , seven - hundred - thirty - one . "
+(e / equal-01
+   :ARG2 (t / that))
+
+# ::snt Are you still there ?
+(b / be-located-at-91
+   :ARG1 (y / you)
+   :ARG2 (t / there)
+   :mod (s / still)
+   :polarity (a / amr-unknown))
+
+# ::snt I am concerned with matters of consequence .
+(c / concern-01
+   :ARG0 (m / matter
+            :ARG1-of (c2 / consequential-01))
+   :ARG1 (i / i))
+
+# ::snt " During the fifty - four years that I have inhabited this planet , I have been disturbed only three times .
+(d / disturb-01
+   :ARG1 (i / i)
+   :ARG1-of (h / have-frequency-91
+               :mod (o / only))
+   :time (i2 / inhabit-01
+             :ARG0 i
+             :ARG1 (p / planet)
+             :duration (t2 / temporal-quantity)))
+
+# ::snt The second time , eleven years ago , I was disturbed by an attack of rheumatism .
+(d / disturb-01
+   :ARG0 (a / attack-01
+            :ARG0 (r / rheumatism)
+            :ARG1 (i / i))
+   :ARG1 i
+   :time (b / before
+            :op1 (n / now)
+            :quant (t2 / temporal-quantity))
+   :domain (d2 / disturb-01
+               :ord (o / ordinal-entity)))
+
+# ::snt The third time - - well , this is it !
+(d / disturb-01
+   :ord (o / ordinal-entity)
+   :domain (t / this))
+
+# ::snt " Flies ? "
+(f / fly
+   :polarity (a / amr-unknown))
+
+# ::snt " Oh , no .
+(n / no
+   :mod (o / oh))
+
+# ::snt " Yes , that 's it .
+(b / be-it-07
+   :ARG1 (t2 / that))
+
+# ::snt " Yes . "
+(y / yes)
+
+# ::snt " Kings do not own , they reign over .
+(c / contrast-01
+   :ARG1 (o / own-01
+            :ARG0 (k / king))
+   :ARG2 (r / reign-01
+            :ARG0 k))
+
+# ::snt " To whom do they belong ? " the businessman retorted , peevishly .
+(r / retort-01
+   :ARG0 (b3 / businessman)
+   :ARG2 (b2 / belong-01
+             :ARG0 (t / they)
+             :ARG1 (a / amr-unknown))
+   :manner (p / peeve-01
+              :ARG1 b3))
+
+# ::snt " I administer them , " replied the businessman .
+(r / reply-01
+   :ARG0 (b / businessman)
+   :ARG2 (a / administer-01
+            :ARG0 b
+            :ARG1 (t / they)))
+
+# ::snt It is difficult .
+(d / difficult
+   :domain (i / it))
+
+# ::snt " Whatever does that mean ? "
+(m / mean-01
+   :ARG1 (t / that)
+   :ARG2 (a / amr-unknown))
+
+# ::snt " That is enough , " said the businessman .
+(s / say-01
+   :ARG0 (b2 / businessman)
+   :ARG1 (e / enough
+            :domain (t / that)))
+
+# ::snt " I myself own a flower , " he continued his conversation with the businessman , " which I water every day .
+(c / continue-02
+   :ARG0 (h / he)
+   :ARG1 (o / own-01
+            :ARG0 h
+            :ARG1 (f2 / flower
+                      :ARG1-of (w / water-01
+                                  :ARG0 h
+                                  :frequency (r / rate-entity-91
+                                                :ARG3 (t / temporal-quantity)))))
+   :ARG2 (b / businessman)
+   :ARG3 (c2 / converse-01
+             :ARG0 h
+             :ARG2 b))
+
+# ::snt The little prince was not able to reach any explanation of the use of a street lamp and a lamplighter , somewhere in the heavens , on a planet which had no people , and not one house .
+# ::snt And since it is beautiful , it is truly useful . "
+(a / and
+   :op2 (c / cause-01
+           :ARG0 (b / beautiful-02)
+           :ARG1 (u / useful-05)))
+
+# ::snt Why have you just put out your lamp ? "
+(c / cause-01
+   :ARG0 (a / amr-unknown)
+   :ARG1 (p / put-out-09
+            :ARG0 (y / you)
+            :ARG1 (l / lamp
+                     :poss y)
+            :mod (j / just)))
+
+# ::snt " What are the orders ? "
+(o / order-01
+   :ARG2 (a / amr-unknown))
+
+# ::snt " The orders are that I put out my lamp .
+(o / order-01
+   :ARG2 (p / put-out-09
+            :ARG0 (i / i)
+            :ARG1 (l / lamp
+                     :poss i)))
+
+# ::snt " I do not understand , " said the little prince .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (u / understand-01
+            :ARG0 p))
+
+# ::snt " I follow a terrible profession .
+(f / follow-02
+   :ARG0 (i / i)
+   :ARG1 (p / profession
+            :ARG1-of (t / terrible-01)))
+
+# ::snt " And the orders have been changed since that time ? "
+(a / and
+   :op2 (c / change-01
+           :polarity (a2 / amr-unknown)
+           :ARG1 (o / order-01)
+           :time (s / since)))
+
+# ::snt " Then what ? " asked the little prince .
+(a / ask-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (a2 / amr-unknown
+             :time (t / then)))
+
+# ::snt A day lasts only one minute , here where you live ! "
+(l / last-01
+   :ARG1 (t / temporal-quantity
+            :unit (d / day))
+   :ARG2 (t2 / temporal-quantity
+             :unit (m / minute))
+   :mod (o / only)
+   :location (l2 / live-01
+                 :ARG0 (y / you)))
+
+# ::snt " While we have been talking together a month has gone by . "
+(p / pass-03
+   :ARG1 (t / temporal-quantity
+            :unit (m / month))
+   :duration-of (t2 / talk-01
+                    :ARG0 (w / we)
+                    :mod (t3 / together)))
+
+# ::snt " Yes , a month .
+(t / temporal-quantity
+   :unit (m / month))
+
+# ::snt Thirty minutes .
+(t / temporal-quantity
+   :unit (m / minute))
+
+# ::snt As the little prince watched him , he felt that he loved this lamplighter who was so faithful to his orders .
+(f / feel-01
+   :ARG0 (p / prince
+            :mod (l2 / little))
+   :ARG1 (l / love-01
+            :ARG0 p
+            :ARG1 (p2 / person
+                      :ARG0-of (l3 / light-04
+                                   :ARG1 (l4 / lamp))
+                      :ARG1-of (f2 / faithful-00
+                                   :ARG2 (t2 / thing
+                                             :ARG2-of (o / order-01
+                                                         :ARG1 p2)))))
+   :time (w / watch-01
+            :ARG0 p
+            :ARG1 p2))
+
+# ::snt " You know , " he said , " I can tell you a way you can rest whenever you want to ... "
+(s / say-01
+   :ARG0 (h / he)
+   :ARG1 (p / possible-01
+            :ARG1 (t / tell-01
+                     :ARG0 h)))
+
+# ::snt When you want to rest , you will walk - - and the day will last as long as you like . "
+(w / walk-01
+   :ARG0 (y / you)
+   :time (w2 / want-01
+             :ARG0 y
+             :ARG1 (r / rest-01
+                      :ARG1 y))
+   :ARG0-of (c / cause-01
+               :ARG1 (l / last-01
+                        :ARG1 (d / day)
+                        :ARG2 (t / temporal-quantity
+                                 :ARG1-of (h / have-quant-91
+                                             :ARG3 (e / equal)
+                                             :ARG4 (t2 / temporal-quantity
+                                                       :ARG1-of (l2 / like-02
+                                                                    :ARG0 y)))))))
+
+# ::snt " I am unlucky , " said the lamplighter .
+(s / say-01
+   :ARG0 (p / person
+            :ARG0-of (l / light-04
+                        :ARG1 (l2 / lamp)))
+   :ARG1 (l3 / lucky
+             :domain p))
+
+# ::snt Perhaps that is because he is thinking of something else besides himself . "
+# ::snt What the little prince did not dare confess was that he was sorry most of all to leave this planet , because it was blest every day with 1440 sunsets !
+(d / dare-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG2 (c / confess-01
+            :ARG0 p
+            :ARG1 (h / have-degree-91
+                     :ARG1 p
+                     :ARG1-of (c2 / cause-01
+                                  :ARG0 (b / bless-01
+                                           :ARG2 (s / sunset)
+                                           :frequency (r / rate-entity-91))))))
+
+# ::snt Chapter 15 .
+(c / chapter)
+
+# ::snt " And towns , and rivers , and deserts ? "
+(a3 / and
+    :op2 (a4 / and
+             :op1 (t2 / town)
+             :op2 (r2 / river)
+             :op3 (d2 / desert)
+             :polarity (a / amr-unknown)))
+
+# ::snt " But you are a geographer ! "
+(c / contrast-01
+   :ARG2 (g2 / geographer
+             :domain (y2 / you)))
+
+# ::snt " Exactly , " the geographer said .
+(s / say-01
+   :ARG0 (g / geographer)
+   :ARG1 (e / exact))
+
+# ::snt " One goes to see it ? "
+(g / go-02
+   :polarity (a / amr-unknown)
+   :ARG0 (o / one)
+   :purpose (s2 / see-01
+                :ARG0 o
+                :ARG1 (i / it)))
+
+# ::snt The recitals of explorers are put down first in pencil .
+(p / put-01
+   :ARG1 (t / thing
+            :ARG1-of (r / recite-01
+                        :ARG0 (p2 / person
+                                  :ARG0-of (e / explore-01))))
+   :direction (d / down)
+   :time (f / first)
+   :instrument (p3 / pencil))
+
+# ::snt " One never knows , " said the geographer .
+(s / say-01
+   :ARG0 (g / geographer)
+   :ARG1 (k / know-01
+            :ARG0 (o / one)
+            :time (e / ever)))
+
+# ::snt We write of eternal things . "
+(w3 / write-01
+    :ARG0 (w2 / we)
+    :ARG1 (t / thing
+             :mod (e / eternal)))
+
+# ::snt " But extinct volcanoes may come to life again , " the little prince interrupted .
+# ::snt " The thing that matters to us is the mountain .
+(m3 / mountain
+    :domain (t / thing
+               :ARG1-of (m2 / matter-01
+                            :ARG2 (w / we))))
+
+# ::snt " It means , ' which is in danger of speedy disappearance . ' "
+(m2 / mean-01
+    :ARG1 (i / it)
+    :ARG2 (t / thing
+             :ARG1-of (e / endanger-01
+                         :ARG1-of (c / cause-01
+                                     :ARG0 (d / disappear-01
+                                              :ARG1-of (s / speedy-03))))))
+
+# ::snt " Is my flower in danger of speedy disappearance ? "
+(e2 / endanger-01
+    :polarity (a / amr-unknown)
+    :ARG1 (f2 / flower
+              :poss (i / i))
+    :ARG1-of (c / cause-01
+                :ARG0 (d / disappear-01
+                         :ARG1-of (s / speedy-03))))
+
+# ::snt So then the seventh planet was the Earth .
+(p2 / planet
+    :ord (o / ordinal-entity)
+    :domain (p / planet
+               :name (n / name))
+    :ARG1-of (c / cause-01))
+
+# ::snt The movements of this army would be regulated like those of the ballet in the opera .
+(r / regulate-01
+   :ARG1 (m / move-01
+            :ARG0 (a / army)
+            :ARG1-of (r3 / resemble-01
+                         :ARG2 (m2 / move-01
+                                   :ARG0 (b / ballet
+                                            :subevent-of (o / opera))))))
+
+# ::snt And never would they make a mistake in the order of their entry upon the stage .
+(a / and
+   :op2 (m2 / mistake-02
+            :ARG0 (t / they)
+            :ARG1 (o / order-03)
+            :time (e2 / ever)))
+
+# ::snt Men occupy a very small place upon the Earth .
+(o / occupy-01
+   :ARG0 (m / man)
+   :ARG1 (p2 / place
+             :mod (s / small)
+             :location (p / planet)))
+
+# ::snt When the little prince arrived on the Earth , he was very much surprised not to see any people .
+(s / surprise-01
+   :ARG0 (s2 / see-01
+             :ARG0 (p / prince)
+             :ARG1 (p2 / person))
+   :ARG1 p
+   :degree (m / much
+              :degree (v / very))
+   :time (a2 / arrive-01
+             :ARG1 p
+             :ARG4 (p3 / planet)))
+
+# ::snt " Good evening , " said the little prince courteously .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (e2 / evening
+             :ARG1-of (g / good-02))
+   :manner (c / courteous))
+
+# ::snt " This is the desert .
+(d2 / desert
+    :domain (t / this))
+
+# ::snt " You are a funny animal , " he said at last .
+(s / say-01
+   :ARG0 (h / he)
+   :ARG1 (a2 / animal
+             :mod (f / funny)
+             :domain (y / you))
+   :time (a / at-last))
+
+# ::snt " Oh !
+(o / oh)
+
+# ::snt The wind blows them away .
+(b / blow-01
+   :ARG0 (w / wind)
+   :ARG1 (t / they)
+   :direction (a / away))
+
+# ::snt " Good morning - - Good morning - - Good morning , " answered the echo .
+(a / answer-01
+   :ARG0 (e / echo-01)
+   :ARG1 (m2 / morning
+             :ARG1-of (g / good-02)))
+
+# ::snt But it happened that after walking for a long time through sand , and rocks , and snow , the little prince at last came upon a road .
+# ::snt " Good morning , " said the roses .
+(s / say-01
+   :ARG0 (r / rose)
+   :ARG1 (m / morning
+            :ARG1-of (g / good-02)))
+
+# ::snt They all looked like his flower .
+(l / look-02
+   :ARG0 (t / they
+            :mod (a / all))
+   :ARG1 (f / flower
+            :poss (h / he)))
+
+# ::snt " We are roses , " the roses said .
+(s / say-01
+   :ARG0 (r / rose)
+   :ARG1 (r2 / rose
+             :domain r))
+
+# ::snt Then he went on with his reflections : " I thought that I was rich , with a flower that was unique in all the world ; and all I had was a common rose .
+(g / go-on-25
+   :ARG0 (h / he
+            :ARG0-of (h3 / have-03
+                         :ARG1 (f / flower
+                                  :ARG1-of (u / unique-01
+                                              :ARG3 (w / world
+                                                       :mod (a2 / all))))
+                         :ARG0-of (c3 / cause-01)))
+   :ARG1 (r / reflect-02
+            :ARG0 h
+            :ARG1 (c2 / contrast-01))
+   :time (t2 / then))
+
+# ::snt Chapter 21 .
+(c / chapter)
+
+# ::snt " Good morning , " the little prince responded politely , although when he turned around he saw nothing .
+(r / respond-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG2 (m / morning
+            :ARG1-of (g / good-02))
+   :manner (p2 / polite-01)
+   :concession (s / see-01
+                  :ARG0 p
+                  :ARG1 (n / nothing)
+                  :time (t / turn-01
+                           :ARG1 p)))
+
+# ::snt " I am a fox , " said the fox .
+(s / say-01
+   :ARG0 (f / fox)
+   :ARG1 (f2 / fox
+             :domain f))
+
+# ::snt " Come and play with me , " proposed the little prince .
+(p / propose-01
+   :ARG0 (p2 / prince
+             :mod (l / little))
+   :ARG1 (a / and
+            :op1 (c / come-01)
+            :op2 (p3 / play-01
+                     :ARG3 p2)))
+
+# ::snt " You do not live here , " said the fox .
+(s / say-01
+   :ARG0 (f / fox)
+   :ARG1 (l / live-01
+            :ARG0 (y / you)
+            :location (h / here)))
+
+# ::snt They also raise chickens .
+(r / raise-03
+   :ARG0 (t / they)
+   :ARG1 (c / chicken)
+   :mod (a / also))
+
+# ::snt These are their only interests .
+(i / interest-01
+   :ARG0 (t / this)
+   :ARG1 (t2 / they)
+   :mod (o / only))
+
+# ::snt " No , " said the little prince .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (n / no))
+
+# ::snt " To me , you are still nothing more than a little boy who is just like a hundred thousand other little boys .
+(o2 / opine-01
+    :ARG0 (i / i)
+    :ARG1 (b / boy
+             :mod (l / little)
+             :ARG1-of (r / resemble-01
+                         :ARG2 (b2 / boy
+                                   :mod (l2 / little)
+                                   :mod (o / other))
+                         :mod (j / just))
+             :domain (y2 / you)
+             :mod (s2 / still)))
+
+# ::snt But if you tame me , then we shall need each other .
+(c / contrast-01
+   :ARG2 (n / need-01
+            :ARG0 (w / we)
+            :ARG1 (o / other)
+            :condition (t / tame-01)))
+
+# ::snt " There is a flower ...
+(f / flower)
+
+# ::snt Are there chickens ? "
+(c / chicken
+   :polarity (a / amr-unknown))
+
+# ::snt Yours will call me , like music , out of my burrow .
+(c / call-03
+   :ARG0 (s / step-01
+            :ARG1 (y / you))
+   :ARG1 (o / out-06
+            :ARG1 (i / i)
+            :ARG2 (b / burrow
+                     :poss i))
+   :ARG2 i
+   :ARG1-of (r / resemble-01
+               :ARG2 (m / music)))
+
+# ::snt And then look : you see the grain - fields down yonder ?
+(a / and
+   :op2 (l / look-01
+           :ARG0 (y / you)
+           :time (t / then))
+   :op3 (s / see-01
+           :ARG0 y
+           :ARG1 (f / field)
+           :polarity (a2 / amr-unknown)))
+
+# ::snt The grain , which is also golden , will bring me back the thought of you .
+(b / bring-01
+   :ARG0 (g / grain
+            :mod (g2 / golden))
+   :ARG1 (t / think-01
+            :ARG1 (y / you))
+   :ARG2 (i / i)
+   :direction (b2 / back))
+
+# ::snt The fox gazed at the little prince , for a long time .
+(g / gaze-01
+   :ARG0 (f / fox)
+   :ARG1 (p / prince
+            :mod (l / little))
+   :ARG1-of (l2 / long-03))
+
+# ::snt " Men have no more time to understand anything .
+(h / have-03
+   :ARG0 (m / man)
+   :ARG1 (t / time
+            :duration-of (u / understand-01
+                            :ARG0 m
+                            :ARG1 (a / anything))))
+
+# ::snt They buy things all ready made at the shops .
+(b / buy-01
+   :ARG0 (t / they)
+   :ARG1 (t2 / thing
+             :ARG1-of (m / make-01
+                         :time (a / already)))
+   :location (s / shop))
+
+# ::snt If you want a friend , tame me ... "
+(t / tame-01
+   :ARG0 (y / you)
+   :ARG1 (i / i)
+   :condition (w / want-01
+                 :ARG0 y
+                 :ARG1 (h / have-rel-role-91
+                          :ARG1 y)))
+
+# ::snt " What must I do , to tame you ? " asked the little prince .
+(a / ask-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (o / obligate-01
+            :ARG2 (d / do-02
+                     :ARG0 p)))
+
+# ::snt " If , for example , you come at four o'clock in the afternoon , then at three o'clock I shall begin to be happy .
+(b / begin-01
+   :ARG0 (i / i)
+   :ARG1 (h / happy-01
+            :ARG1 i)
+   :condition (c / come-01
+                 :ARG1 (y / you)
+                 :time (d2 / date-entity)
+                 :ARG0-of (e / exemplify-01))
+   :time (d / date-entity))
+
+# ::snt " Those also are actions too often neglected , " said the fox .
+(s / say-01
+   :ARG0 (f / fox)
+   :ARG1 (a / act-02
+            :domain (t2 / that)
+            :ARG1-of (n2 / neglect-01
+                         :ARG1-of (h / have-degree-91
+                                     :ARG2 (o / often)
+                                     :ARG3 (t3 / too))
+                         :frequency o)
+            :mod (a3 / also)))
+
+# ::snt " They are what make one day different from other days , one hour from other hours .
+(t2 / thing
+    :domain (t / they)
+    :ARG0-of (m / make-02
+                :ARG1 (a / and
+                         :op1 (d / differ-02)
+                         :op2 (d4 / differ-02))))
+
+# ::snt " I never wished you any sort of harm ; but you wanted me to tame you ... "
+(c / contrast-01
+   :ARG1 (w / wish-01
+            :ARG0 (i / i)
+            :ARG1 (h / harm-01)
+            :time (e / ever))
+   :ARG2 (w2 / want-01
+             :ARG1 (t / tame-01
+                      :ARG0 i)))
+
+# ::snt " Yes , that is so , " said the fox .
+(s / say-01
+   :ARG0 (f / fox)
+   :ARG1 (s2 / so
+             :domain (t / that)))
+
+# ::snt " It has done me good , " said the fox , " because of the color of the wheat fields . "
+(s / say-01
+   :ARG0 (f2 / fox)
+   :ARG1 (d / do-02
+            :ARG0 (i / it)
+            :ARG1 (g / good-04
+                     :ARG1 i
+                     :ARG2 f2)
+            :ARG2 f2
+            :ARG1-of (c / cause-01
+                        :ARG0 (c2 / color-01
+                                  :ARG1 (f / field)))))
+
+# ::snt And then he added : " Go and look again at the roses .
+(a / and
+   :op1 (a2 / add-01
+            :ARG0 (h / he)
+            :ARG1 (a3 / and)
+            :time (t / then)))
+
+# ::snt No one has tamed you , and you have tamed no one .
+(a / and
+   :op1 (t / tame-01
+           :ARG0 (n / no-one)
+           :ARG1 (y / you))
+   :op2 (t2 / tame-01
+            :ARG0 y
+            :ARG1 n))
+
+# ::snt He was only a fox like a hundred thousand other foxes .
+(f2 / fox
+    :domain (h / he)
+    :ARG1-of (r / resemble-01
+                :ARG2 (f3 / fox
+                          :mod (o / other)))
+    :mod (o2 / only))
+
+# ::snt And the roses were very much embarassed .
+(a / and
+   :op1 (e / embarrass-01
+           :ARG1 (r / rose)
+           :degree (m / much)))
+
+# ::snt " It is the time I have wasted for my rose - - " said the little prince , so that he would be sure to remember .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (t / time
+            :ARG1-of (w / waste-01
+                        :ARG0 p)
+            :beneficiary (r / rose
+                            :poss p))
+   :purpose (r2 / remember-01
+                :ARG0 p
+                :ARG1-of (s2 / sure-02)))
+
+# ::snt Chapter 22 .
+(c / chapter)
+
+# ::snt " Good morning , " said the little prince .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (m / morning
+            :ARG1-of (g / good-02)))
+
+# ::snt " What do you do here ? " the little prince asked .
+(a / ask-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (d / do-02
+            :ARG0 (y / you)
+            :ARG1 (a2 / amr-unknown)
+            :location (h / here)))
+
+# ::snt " I sort out travelers , in bundles of a thousand , " said the switchman .
+(s / say-01
+   :ARG0 (s2 / switchman)
+   :ARG1 (s3 / sort-01
+             :ARG0 s2
+             :ARG1 (p / person
+                      :ARG0-of (t / travel-01))
+             :ARG2 (b / bundle-01
+                      :ARG0 s2
+                      :ARG1 p)))
+
+# ::snt " They are asleep in there , or if they are not asleep they are yawning .
+(o / or
+   :op1 (s / sleep-01
+           :ARG0 (t / they)
+           :location (t2 / there))
+   :op2 (y / yawn-01
+           :ARG0 t
+           :condition (s2 / sleep-01
+                          :ARG0 t)))
+
+# ::snt With these pills , you save fifty - three minutes in every week . "
+(s / save-03
+   :ARG0 (y / you)
+   :ARG1 (r / rate-entity-91
+            :ARG1 (t / temporal-quantity)
+            :ARG2 (t3 / temporal-quantity))
+   :instrument (p / pill
+                  :mod (t2 / this)))
+
+# ::snt It was now the eighth day since I had had my accident in the desert , and I had listened to the story of the merchant as I was drinking the last drop of my water supply .
+# ::snt " Ah , "
+(a / ah)
+
+# ::snt " Because I am about to die of thirst ... "
+(c / cause-01
+   :ARG0 (d / die-01
+            :ARG1 (i / i)
+            :ARG1-of (c2 / cause-01
+                         :ARG0 (t / thirst-01
+                                  :ARG0 i))
+            :time (a / about-to)))
+
+# ::snt I , for instance , am very glad to have had a fox as a friend ... "
+(g / glad-02
+   :ARG0 (h / have-rel-role-91
+            :ARG0 (f2 / fox)
+            :ARG1 (i / i
+                     :ARG0-of (e / exemplify-01))
+            :ARG2 (f / friend))
+   :ARG1 i
+   :degree (v / very))
+
+# ::snt But nevertheless we started walking .
+(h / have-concession-91
+   :ARG1 (s / start-01
+            :ARG0 (w / we)
+            :ARG1 (w2 / walk-01)))
+
+# ::snt I demanded .
+(d / demand-01
+   :ARG0 (i / i))
+
+# ::snt He was tired .
+(t / tire-01
+   :ARG1 (h / he))
+
+# ::snt And , without saying anything more , I looked across the ridges of sand that were stretched out before us in the moonlight .
+# ::snt Chapter 25 .
+(c / chapter)
+
+# ::snt The well that we had come to was not like the wells of the Sahara .
+(w / well
+   :ARG4-of (c / come-01
+               :ARG1 (w2 / we))
+   :ARG1-of (r / resemble-01
+               :ARG2 (w3 / well
+                         :location (d / desert))))
+
+# ::snt " Everything is ready for use : the pulley , the bucket , the rope ... "
+(r / ready-02
+   :ARG1 (e / everything
+            :example (a / and))
+   :ARG2 (u / use-01
+            :ARG1 e))
+
+# ::snt " It is too heavy for you . "
+(h / have-degree-91
+   :ARG1 (i2 / it)
+   :ARG2 (h2 / heavy)
+   :ARG3 (t / too)
+   :ARG6 (c / carry-01
+            :ARG0 (y / you)
+            :ARG1 i2))
+
+# ::snt The song of the pulley was still in my ears , and I could see the sunlight shimmer in the still trembling water .
+# ::snt This water was indeed a different thing from ordinary nourishment .
+(r2 / resemble-01
+    :ARG1 (w / water
+             :mod (t / this))
+    :ARG2 (t2 / thing
+              :ARG2-of (n / nourish-01)
+              :mod (o / ordinary))
+    :mod (i / indeed))
+
+# ::snt When I was a little boy , the lights of the Christmas tree , the music of the Midnight Mass , the tenderness of smiling faces , used to make up , so , the radiance of the gifts I received .
+# ::snt " The men where you live , " said the little prince , " raise five thousand roses in the same garden - - and they do not find in it what they are looking for . "
+# ::snt " Oh ! "
+(o / oh)
+
+# ::snt I had been so proud of my baobabs !
+(p / pride-01
+   :ARG0 (i / i)
+   :ARG1 (b / baobab
+            :poss i)
+   :degree (s / so))
+
+# ::snt I said .
+(s / say-01
+   :ARG0 (i / i))
+
+# ::snt He said to me , instead : " You know - - my descent to the earth ...
+(s / say-01
+   :ARG0 (h / he)
+   :ARG1 (d / descend-01
+            :ARG0 h
+            :ARG1 (e / earth))
+   :ARG2 (i / i)
+   :ARG1-of (i2 / instead-of-91))
+
+# ::snt Tomorrow will be its anniversary . "
+(a / anniversary
+   :time (t / tomorrow)
+   :poss (i / it))
+
+# ::snt Then , after a silence , he went on : " I came down very near here . "
+(g / go-23
+   :ARG0 (h / he)
+   :ARG1 (c / come-01
+            :ARG1 h
+            :ARG4 (n / near-02
+                     :ARG1 h)
+            :direction (d / down))
+   :time (t / then)
+   :time (a / after
+            :op1 (s / silent)))
+
+# ::snt You were on the your back to the place where you landed ? "
+(g / go-02
+   :ARG1 (y / you)
+   :ARG4 (p2 / place
+             :location-of (l / land-01
+                             :ARG0 y))
+   :polarity (a / amr-unknown)
+   :direction (b / back))
+
+# ::snt I will be waiting for you here .
+(w / wait-01
+   :ARG1 (i / i)
+   :ARG2 (y / you)
+   :location (h / here))
+
+# ::snt This is not the exact spot . "
+(s2 / spot
+    :domain (t / this)
+    :mod (e2 / exact))
+
+# ::snt I continued my walk toward the wall .
+(c / continue-01
+   :ARG0 (i / i)
+   :ARG1 (w / walk-01
+            :ARG0 i
+            :direction (t / toward)))
+
+# ::snt I shall be there tonight . "
+(t / there
+   :location-of (i / i)
+   :time (d / date-entity))
+
+# ::snt " Now go away , " said the little prince .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little))
+   :ARG1 (g / go-02
+            :ARG0 (y / you)
+            :ARG1 (a / away)
+            :time (n / now)))
+
+# ::snt " I am glad that you have found what was the matter with your engine , " he said .
+(s / say-01
+   :ARG0 (h / he)
+   :ARG1 (g / glad-02
+            :ARG0 (f / find-01)
+            :ARG1 (i / i)))
+
+# ::snt " Now you can go back home - - "
+(p / possible-01
+   :ARG1 (g / go-02
+            :ARG0 (y / you)
+            :ARG4 (h / home)
+            :direction (b / back))
+   :time (n / now))
+
+# ::snt I was just coming to tell him that my work had been successful , beyond anything that I had dared to hope .
+(c / come-01
+   :ARG1 (i / i
+            :ARG0-of (h2 / hope-01
+                         :ARG2-of (d / dare-01
+                                     :ARG1 i)))
+   :purpose (t / tell-01
+               :ARG0 i
+               :ARG1 (s2 / succeed-01)
+               :ARG2 (h / he))
+   :mod (j / just))
+
+# ::snt I was holding him close in my arms as if he were a little child ; and yet it seemed to me that he was rushing headlong toward an abyss from which I could do nothing to restrain him ...
+(a / and
+   :op1 (h / hold-01
+           :ARG0 (i / i
+                    :ARG0-of (r3 / restrain-01
+                                 :ARG1 h2))
+           :ARG1 (h2 / he)
+           :ARG1-of (c / close-10)
+           :ARG1-of (r / resemble-01
+                       :ARG2 (c2 / child
+                                 :mod (l / little)
+                                 :domain h2)))
+   :op2 (s / seem-01
+           :ARG1 (r2 / rush-01
+                     :ARG1 h2)
+           :ARG2 i
+           :mod (y / yet)))
+
+# ::snt " I have your sheep .
+(h / have-03
+   :ARG0 (i / i)
+   :ARG1 (s / sheep
+            :poss (y / you)))
+
+# ::snt I waited a long time .
+(w / wait-01
+   :ARG1 (i / i)
+   :ARG1-of (l / long-03))
+
+# ::snt I could see that he was reviving little by little .
+(p / possible-01
+   :ARG1 (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (r / revive-01)))
+
+# ::snt " Little man , "
+(m / man
+   :mod (l / little))
+
+# ::snt Because of the pulley , and the rope , what you gave me to drink was like music .
+(c / cause-01
+   :ARG0 (a / and
+            :op1 (p / pulley)
+            :op2 (r / rope))
+   :ARG1 (r2 / resemble-01
+             :ARG1 (t / thing
+                      :ARG1-of (g / give-01
+                                  :ARG0 (y / you)
+                                  :ARG2 (i / i)
+                                  :purpose (d / drink-01
+                                              :ARG0 i)))
+             :ARG2 (m / music)))
+
+# ::snt Where I live everything is so small that I can not show you where my star is to be found .
+# ::snt " That is my present .
+(p / present-01
+   :ARG0 (i / i)
+   :ARG1 (t / that))
+
+# ::snt It will be as it was when we drank the water ... "
+(r / resemble-01
+   :ARG1 (i / it)
+   :ARG2 (t / time
+            :time-of (d / drink-01
+                        :ARG0 (w / we)
+                        :ARG1 (w2 / water))))
+
+# ::snt You - - you alone - - will have the stars as no one else has them - - "
+(h / have-03
+   :ARG0 (y / you
+            :mod (a / alone))
+   :ARG1 (s / star)
+   :ARG1-of (r / resemble-01
+               :ARG2 (h2 / have-03
+                         :ARG0 (a2 / anyone)
+                         :ARG1 s)))
+
+# ::snt Then you will say to them , ' Yes , the stars always make me laugh ! ' And they will think you are crazy .
+(a / and
+   :op1 (s / say-01
+           :ARG0 (y / you)
+           :ARG1 (a3 / and)
+           :ARG2 (t2 / they)
+           :time (t / then))
+   :op2 (t3 / think-01
+            :ARG0 t2
+            :ARG1 (c / crazy-03
+                     :ARG1 y)))
+
+# ::snt Then he quickly became serious : " Tonight - - you know ... do not come , " said the little prince .
+(s / say-01
+   :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (b / become-01
+                        :ARG2 (s2 / serious-01
+                                  :ARG1 p)
+                        :ARG1-of (q / quick-02)
+                        :time (t / then)))
+   :ARG1 (c / come-01
+            :ARG1 (y / you)
+            :time (d / date-entity)))
+
+# ::snt " I shall not leave you . "
+(l / leave-15
+   :ARG0 (i / i)
+   :ARG1 (y / you))
+
+# ::snt It is too heavy . "
+(h / have-degree-91
+   :ARG1 (i2 / it)
+   :ARG2 (h2 / heavy)
+   :ARG3 (t / too))
+
+# ::snt He was a little discouraged .
+(d / discourage-01
+   :ARG1 (h / he)
+   :degree (l / little))
+
+# ::snt Let me go on by myself . "
+(a / allow-01
+   :ARG0 (y / you)
+   :ARG1 (g / go-on-15
+            :ARG1 (i / i)
+            :mod (b / by-oneself)))
+
+# ::snt She has four thorns , of no use at all , to protect herself against all the world ... "
+(h / have-03
+   :ARG0 (s / she)
+   :ARG1 (t / thorn
+            :ARG1-of (u / use-01
+                        :degree (a2 / at-all)))
+   :purpose (p / protect-01
+               :ARG0 t
+               :ARG1 s
+               :ARG2 (w / world)))
+
+# ::snt I could not move .
+(p / possible-01
+   :ARG1 (m / move-01
+            :ARG1 (i / i)))
+
+# ::snt And now six years have already gone by ...
+(a / and
+   :op2 (g / go-on-15
+           :ARG1 (t / temporal-quantity)
+           :time (a2 / already))
+   :time (n / now))
+
+# ::snt I have never yet told this story .
+(t / tell-01
+   :ARG0 (i / i)
+   :ARG1 (s / story
+            :mod (t2 / this))
+   :time (e / ever)
+   :time (y / yet))
+
+# ::snt Now my sorrow is comforted a little .
+(c / comfort-01
+   :ARG1 (s / sorrow-01
+            :ARG0 (i / i))
+   :time (n / now)
+   :degree (l / little))
+
+# ::snt He will never have been able to fasten it on his sheep .
+(p / possible-01
+   :time (e / ever)
+   :ARG1 (f / fasten-01
+            :ARG0 (h / he)
+            :ARG1 (i / it)
+            :ARG2 (s / sheep
+                     :poss h)))
+
+# ::snt The little prince shuts his flower under her glass globe every night , and he watches over his sheep very carefully ... "
+(a / and
+   :op1 (s / shut-01
+           :ARG0 (p / prince)
+           :ARG1 (g / globe
+                    :consist-of (g2 / glass)
+                    :op1-of (u / under
+                               :location-of (f2 / flower
+                                                :mod (l2 / little)
+                                                :poss p)))
+           :time (r / rate-entity-91))
+   :op2 (w / watch-01
+           :ARG0 p
+           :ARG1 (s3 / sheep)
+           :manner (c / careful)))
+
+# ::snt Look at it carefully so that you will be sure to recognise it in case you travel some day to the African desert .
+(l / look-01
+   :ARG0 (y / you)
+   :ARG1 (i / it)
+   :manner (c / careful)
+   :purpose (r / recognize-02
+               :ARG0 y
+               :ARG1 i
+               :ARG1-of (e / ensure-01)
+               :condition (t / travel-01
+                             :ARG0 y)))
+
+# ::snt Wait for a time , exactly under the star .
+(w / wait-01
+   :ARG1 (y / you)
+   :duration (t / time)
+   :location (u / under
+                :op1 (s / star)
+                :manner (e / exact)))
+
