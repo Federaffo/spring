@@ -2,11 +2,13 @@
 # ::snt After that they are not able to move , and they sleep through the six months that they need for digestion . "
 (a / and
    :op1 (p / possible-01
-           :ARG1 (m / move-01))
+           :ARG1 (m / move-01)
+           :polarity -)
    :op2 (s / sleep-01
            :duration (t2 / temporal-quantity
                          :ARG1-of (n / need-01
-                                     :purpose (d / digest-01)))))
+                                     :purpose (d / digest-01))
+                         :quant 6)))
 
 # ::id 18
 # ::snt So then I chose another profession , and learned to pilot airplanes .
@@ -35,7 +37,8 @@
                      :ARG1-of (o2 / opine-01
                                   :ARG0 (i2 / i)
                                   :topic (t2 / they)))
-           :degree (m2 / much)))
+           :degree (m2 / much)
+           :polarity -))
 
 # ::id 29
 # ::snt Then I would never talk to that person about boa constrictors , or primeval forests , or stars .
@@ -47,7 +50,8 @@
             :op3 (s / star))
    :ARG2 (p / person
             :mod (t2 / that))
-   :time (e / ever))
+   :time (e / ever)
+   :polarity -)
 
 # ::id 31
 # ::snt I would talk to him about bridge , and golf , and politics , and neckties .
@@ -73,7 +77,8 @@
 (c / contrast-01
    :ARG2 (f / fault-01
             :ARG1 (i / i)
-            :ARG2 (t / that)))
+            :ARG2 (t / that)
+            :polarity -))
 
 # ::id 52
 # ::snt Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment .
@@ -104,7 +109,8 @@
              :ARG0 o)
    :condition (h / have-quant-91
                  :ARG1 (o2 / overpower-01)
-                 :ARG3 (t / too)))
+                 :ARG3 (t / too))
+   :polarity -)
 
 # ::id 70
 # ::snt What I need is a sheep .
@@ -118,7 +124,8 @@
    :ARG0 (h / he)
    :ARG1 (s2 / see-01
              :ARG0 (y / you)
-             :ARG1 (s4 / sheep)))
+             :ARG1 (s4 / sheep
+                       :polarity -)))
 
 # ::id 79
 # ::snt This is a ram .
@@ -169,12 +176,14 @@
                      :ARG1-of (a2 / ask-01
                                   :ARG0 i
                                   :ARG2 p))
-            :time (e2 / ever)))
+            :time (e2 / ever)
+            :polarity -))
 
 # ::id 105
 # ::snt " That is not an object .
 (o / object
-   :domain (t / that))
+   :domain (t / that)
+   :polarity -)
 
 # ::id 109
 # ::snt And I was proud to have him learn that I could fly .
@@ -217,7 +226,8 @@
             :ARG0 (t / that)
             :ARG1 (i / i)
             :degree (m / much)
-            :ARG1-of (r / real-04)))
+            :ARG1-of (r / real-04)
+            :polarity -))
 
 # ::id 156
 # ::snt So in 1920 the astronomer gave his demonstration all over again , dressed with impressive style and elegance .
@@ -229,7 +239,8 @@
                                              :op1 (s / style)
                                              :op2 (e / elegance)
                                              :ARG0-of (i / impress-01))))
-             :time (d3 / date-entity)
+             :time (d3 / date-entity
+                       :year 1920)
              :mod (a3 / again)))
 
 # ::id 159
@@ -242,7 +253,8 @@
              :ARG1 (v / voice)
              :ARG2 (a2 / amr-unknown))
    :ARG2 (y / you)
-   :time (e / ever))
+   :time (e / ever)
+   :polarity -)
 
 # ::id 170
 # ::snt Then they would exclaim : " Oh , what a pretty house that is ! "
@@ -286,12 +298,14 @@
                                     :ARG1 (s2 / sheep)
                                     :path (t / through
                                              :op1 (w / wall
-                                                     :consist-of (b2 / box))))))
+                                                     :consist-of (b2 / box)))))
+            :polarity -)
    :mod (a / alas))
 
 # ::id 205
 # ::snt Chapter 5 .
-(c / chapter)
+(c / chapter
+   :mod 5)
 
 # ::id 207
 # ::snt The information would come very slowly , as it might chance to fall from his thoughts .
@@ -330,7 +344,8 @@
 # ::snt But seeds are invisible .
 (c / contrast-01
    :ARG2 (p / possible-01
-            :ARG1 (s2 / see-01)))
+            :ARG1 (s2 / see-01)
+            :polarity -))
 
 # ::id 230
 # ::snt If it is only a sprout of radish or the sprig of a rose - bush , one would let it grow wherever it might wish .
@@ -362,7 +377,8 @@
                  :ARG1 b
                  :ARG1-of (h / have-degree-91
                              :ARG2 (l / late)
-                             :ARG3 (t / too))))
+                             :ARG3 (t / too)))
+   :polarity -)
 
 # ::id 236
 # ::snt It bores clear through it with its roots .
@@ -448,11 +464,13 @@
 # ::snt Come , let us go look at a sunset now . "
 (a / and
    :op1 (c / come-01
-           :ARG1 (y / you))
+           :ARG1 (y / you)
+           :mode imperative)
    :op2 (g / go-05
            :ARG0 (w / we)
            :ARG1 (l / look-01
-                    :ARG0 w)))
+                    :ARG0 w)
+           :mode imperative))
 
 # ::id 269
 # ::snt For what ? "
@@ -475,7 +493,8 @@
             :polarity-of (b / be-temporally-at-91
                             :ARG2 (d / day
                                      :ARG0-of (h / have-03
-                                                 :ARG1 (s / sunset))))))
+                                                 :ARG1 (s / sunset
+                                                          :quant 44))))))
 
 # ::id 289
 # ::snt " A sheep , "
@@ -505,7 +524,8 @@
             :part h)
    :ARG1 (y / you)
    :ARG2 (t / thing
-            :ord (o / ordinal-entity)
+            :ord (o / ordinal-entity
+                    :value 1)
             :ARG1-of (c / come-01
                         :ARG4 (h / head))))
 
@@ -514,7 +534,8 @@
 (l2 / love-01
     :ARG0 (h3 / he)
     :ARG1 (a2 / anyone)
-    :time (e / ever))
+    :time (e / ever)
+    :polarity -)
 
 # ::id 336
 # ::snt " A what ? "
@@ -526,7 +547,8 @@
    :ARG0 (s / sheep)
    :ARG1 (t / they)
    :duration (m / multiple
-                :op1 (t2 / temporal-quantity))
+                :op1 (t2 / temporal-quantity
+                         :quant 1000000))
    :ARG1-of (h / have-concession-91))
 
 # ::id 341
@@ -546,7 +568,8 @@
 (t / think-01
    :ARG0 (y / you)
    :ARG1 (t2 / that
-             :ARG1-of (i / important-01)))
+             :ARG1-of (i / important-01
+                         :polarity -)))
 
 # ::id 346
 # ::snt His face turned from white to red as he continued : " If some one loves a flower , of which just one single blossom grows in all the millions and millions of stars , it is enough to make him happy just to look at the stars .
@@ -582,7 +605,8 @@
                                      :manner (a / accompany-01
                                                 :ARG0 h
                                                 :ARG1 i
-                                                :manner (h2 / hand-in-hand))))))
+                                                :manner (h2 / hand-in-hand)))))
+   :polarity -)
 
 # ::id 369
 # ::snt But one day , from a seed blown from no one knew where , a new flower had come up ; and the little prince had watched very closely over this small sprout which was not like any other small sprouts on his planet .
@@ -641,7 +665,8 @@
    :ARG1 (l / listen-01
             :ARG0 (o2 / one)
             :ARG1 (f / flower)
-            :time (e / ever)))
+            :time (e / ever)
+            :polarity -))
 
 # ::id 419
 # ::snt Mine perfumed all my planet .
@@ -657,13 +682,15 @@
 (r2 / recommend-01
     :ARG1 (a2 / and
               :op1 (j / judge-01)
-              :op2 (j2 / judge-01)))
+              :op2 (j2 / judge-01
+                       :polarity -)))
 
 # ::id 427
 # ::snt Flowers are so inconsistent !
 (c / consistent-01
    :ARG1 (f / flower)
-   :degree (s / so))
+   :degree (s / so)
+   :polarity -)
 
 # ::id 430
 # ::snt I believe that for his escape he took advantage of the migration of a flock of wild birds .
@@ -689,7 +716,8 @@
 (c / contrast-01
    :ARG2 (s / say-01
             :ARG0 (h / he)
-            :ARG1 (k / know-01)))
+            :ARG1 (k / know-01
+                     :polarity -)))
 
 # ::id 441
 # ::snt The little prince also pulled up , with a certain sense of dejection , the last little shoots of the baobabs .
@@ -702,7 +730,8 @@
    :ARG1 (s / shoot
             :part-of (b / baobab)
             :mod (l2 / little)
-            :ord (o / ordinal-entity))
+            :ord (o / ordinal-entity
+                    :value "-1"))
    :mod (a / also)
    :direction (u / up))
 
@@ -733,7 +762,8 @@
 (c2 / contrast-01
     :ARG2 (c3 / cause-01
               :ARG0 (h / have-03)
-              :ARG1 (i / it)))
+              :ARG1 (i / it)
+              :polarity -))
 
 # ::id 453
 # ::snt He was surprised by this absence of reproaches .
@@ -750,7 +780,8 @@
            :ARG2 (b / bad-05
                     :ARG1 c3)
            :ARG3 (e / equal)
-           :ARG4 (t / that))
+           :ARG4 (t / that)
+           :polarity -)
    :op2 (g / good-04
            :ARG1 (a3 / air
                      :ARG1-of (c / cool-06))))
@@ -762,7 +793,8 @@
    :ARG1 (i / i)
    :condition (c3 / call-on-05
                   :ARG0 (a2 / and)
-                  :ARG1 i))
+                  :ARG1 i
+                  :polarity -))
 
 # ::id 489
 # ::snt So he remained standing upright , and , since he was tired , he yawned .
@@ -781,7 +813,8 @@
 # ::snt Yawn again !
 (y / yawn-01
    :ARG0 (y2 / you)
-   :mod (a / again))
+   :mod (a / again)
+   :mode imperative)
 
 # ::id 503
 # ::snt I can not , any more ... " murmured the little prince , now completely abashed .
@@ -792,7 +825,8 @@
                          :ARG1-of (c / complete-02)
                          :time (n / now)))
    :ARG1 (p2 / possible-01
-             :time (a / anymore)))
+             :time (a / anymore)
+             :polarity -))
 
 # ::id 518
 # ::snt Over what could this king really rule ?
@@ -858,7 +892,8 @@
                         :condition (a / ask-01
                                       :ARG0 p
                                       :ARG1 t)
-                        :time (e / ever))))
+                        :time (e / ever)
+                        :polarity -)))
 
 # ::id 548
 # ::snt " When will that be ? " inquired the little prince .
@@ -871,7 +906,8 @@
 
 # ::id 552
 # ::snt Hum !
-(h / hum)
+(h / hum
+   :mode expressive)
 
 # ::id 555
 # ::snt The little prince yawned .
@@ -898,7 +934,8 @@
    :ARG0 (k / king)
    :ARG1 (k2 / know-01
              :ARG0 (w / we)
-             :ARG1 (t / that))
+             :ARG1 (t / that)
+             :polarity -)
    :ARG2 (h / he))
 
 # ::id 583
@@ -947,7 +984,8 @@
    :time (s / see-01
             :ARG0 h
             :ARG1 (c / come-01)
-            :ord (o / ordinal-entity))
+            :ord (o / ordinal-entity
+                    :value 1))
    :direction (f2 / from
                   :op1 (a2 / afar)))
 
@@ -958,7 +996,8 @@
             :degree (a / at-all))
    :path (w / way
             :mod (t / this))
-   :ARG2-of (f / fortunate-01)
+   :ARG2-of (f / fortunate-01
+               :polarity -)
    :time (e / ever))
 
 # ::id 614
@@ -991,7 +1030,8 @@
             :mod (c / conceit))
    :ARG1 (a / anything
             :concession (p2 / praise-01))
-   :time (e / ever))
+   :time (e / ever)
+   :polarity -)
 
 # ::id 622
 # ::snt " Do you really admire me very much ? " he demanded of the little prince .
@@ -1038,25 +1078,31 @@
 # ::snt The fourth planet belonged to a businessman .
 (b / belong-01
    :ARG0 (p / planet
-            :ord (o / ordinal-entity))
+            :ord (o / ordinal-entity
+                    :value 4))
    :ARG1 (b3 / businessman))
 
 # ::id 651
 # ::snt Five and seven make twelve .
 (e / equal-01
-   :ARG1 (s / sum-of))
+   :ARG1 (s / sum-of
+            :op1 5
+            :op2 7)
+   :ARG2 12)
 
 # ::id 660
 # ::snt " Five hundred million what ? " asked the little prince .
 (a / ask-01
    :ARG0 (p / prince
             :mod (l / little))
-   :ARG1 (a2 / amr-unknown))
+   :ARG1 (a2 / amr-unknown
+             :quant 500000000))
 
 # ::id 661
 # ::snt " Eh ?
 (e / eh
-   :polarity (a / amr-unknown))
+   :polarity (a / amr-unknown)
+   :mode expressive)
 
 # ::id 664
 # ::snt I have so much to do !
@@ -1077,7 +1123,8 @@
 (h / have-quant-91
    :ARG1 (e / exercise-02
             :ARG0 (i / i))
-   :ARG3 (e2 / enough))
+   :ARG3 (e2 / enough)
+   :polarity -)
 
 # ::id 683
 # ::snt Little glittering objects . "
@@ -1109,7 +1156,8 @@
 # ::id 714
 # ::snt " I do n't know .
 (k / know-01
-   :ARG0 (i / i))
+   :ARG0 (i / i)
+   :polarity -)
 
 # ::id 718
 # ::snt " Certainly .
@@ -1144,7 +1192,8 @@
 # ::snt But you can not pluck the stars from heaven ... "
 (c / contrast-01
    :ARG2 (p2 / possible-01
-             :ARG1 (p / pluck-01)))
+             :ARG1 (p / pluck-01)
+             :polarity -))
 
 # ::id 733
 # ::snt " No .
@@ -1180,14 +1229,16 @@
 (c / contrast-01
    :ARG2 (c2 / consequential-01
              :ARG1 (i / it)
-             :degree (g / great)))
+             :degree (g / great
+                        :polarity -)))
 
 # ::id 747
 # ::snt But you are of no use to the stars ... "
 (c / contrast-01
    :ARG2 (u / use-01
             :ARG0 (s / star)
-            :ARG1 (y / you)))
+            :ARG1 (y / you)
+            :polarity -))
 
 # ::id 749
 # ::snt And the little prince went away .
@@ -1235,7 +1286,8 @@
             :ARG0-of (l / light-04
                         :ARG1 (l2 / lamp)))
    :ARG1 (c / change-01
-            :ARG1 (o / order-01)))
+            :ARG1 (o / order-01)
+            :polarity -))
 
 # ::id 807
 # ::snt To be always in the sunshine , you need only walk along rather slowly .
@@ -1260,7 +1312,8 @@
             :ARG0 (t / that)
             :ARG1 (g / good-04
                      :ARG2 p)
-            :ARG2 p))
+            :ARG2 p
+            :polarity -))
 
 # ::id 813
 # ::snt " Good morning . "
@@ -1300,7 +1353,8 @@
               :ARG1-of (s / single-02)
               :ARG0-of (e / explore-01)
               :location (p3 / planet
-                            :poss i)))
+                            :poss i))
+    :polarity -)
 
 # ::id 858
 # ::snt " Why is that ? "
@@ -1359,8 +1413,10 @@
             :ARG0-of (l3 / live-01)
             :ARG1-of i2)
    :ARG1 (a / and
-            :op1 (o / oh)
-            :op2 (i2 / interest-01)))
+            :op1 (o / oh
+                    :mode expressive)
+            :op2 (i2 / interest-01
+                     :polarity -)))
 
 # ::id 889
 # ::snt The flower is the most beautiful thing on my planet ! "
@@ -1412,18 +1468,21 @@
                          :topic (p2 / person
                                     :ARG0-of (l / light-04
                                                 :ARG1 (l2 / lamp)))))
-   :degree (a / altogether))
+   :degree (a / altogether
+              :polarity -))
 
 # ::id 944
 # ::snt He was beginning to be afraid he had come to the wrong planet , when a coil of gold , the color of the moonlight , flashed across the sand .
 # ::id 949
 # ::snt " Ah !
-(a / ah)
+(a / ah
+   :mode expressive)
 
 # ::id 952
 # ::snt There are no people in the desert .
 (p / person
-   :location (d / desert))
+   :location (d / desert)
+   :polarity -)
 
 # ::id 954
 # ::snt The little prince sat down on a stone , and raised his eyes toward the sky .
@@ -1451,14 +1510,16 @@
    :ARG2 (t / thick-03
             :ARG1 y)
    :ARG3 (m / more)
-   :ARG4 (f / finger))
+   :ARG4 (f / finger)
+   :polarity -)
 
 # ::id 974
 # ::snt You can not even travel ... "
 (p / possible-01
    :ARG1 (t / travel-01
             :ARG0 (y / you))
-   :mod (e / even))
+   :mod (e / even)
+   :polarity -)
 
 # ::id 977
 # ::snt " Whomever I touch , I send back to the earth from whence he came , " the snake spoke again .
@@ -1519,7 +1580,8 @@
 (h / have-rel-role-91
    :ARG0 (y / you)
    :ARG1 (i / i)
-   :ARG2 (f / friend))
+   :ARG2 (f / friend)
+   :mode imperative)
 
 # ::id 1014
 # ::snt I am all alone , " he said .
@@ -1543,13 +1605,16 @@
            :ARG1-of (a2 / alike-05
                         :mod (a3 / all))
            :location (h / here)
-           :location (g / garden)))
+           :location (g / garden
+                        :quant 1)
+           :quant 5000))
 
 # ::id 1047
 # ::snt " I am so unhappy . "
 (h / happy-01
    :ARG1 (i / i)
-   :mod (s / so))
+   :mod (s / so)
+   :polarity -)
 
 # ::id 1052
 # ::snt But , after some thought , he added : " What does that mean - - ' tame ' ? "
@@ -1579,7 +1644,8 @@
 (a / and
    :op2 (n / need-01
            :ARG0 (y / you)
-           :ARG1 (i / i)))
+           :ARG1 (i / i)
+           :polarity -))
 
 # ::id 1076
 # ::snt To you , I shall be unique in all the world ... "
@@ -1595,7 +1661,8 @@
    :ARG0 (p / prince
             :mod (l / little))
    :ARG1 (a / and
-            :op1 (o / oh)
+            :op1 (o / oh
+                    :mode expressive)
             :op2 (c / contrast-01)))
 
 # ::id 1083
@@ -1626,7 +1693,9 @@
    :ARG0 (h / he)
    :ARG1 (t / tame-01
             :ARG0 (y / you)
-            :ARG1 h))
+            :ARG1 h
+            :mode imperative
+            :polite +))
 
 # ::id 1112
 # ::snt " I want to , very much , " the little prince replied .
@@ -1649,7 +1718,9 @@
                                            :ARG0 (p2 / person)
                                            :ARG1 (m / man)
                                            :ARG2 (f2 / friend)
-                                           :mod (a / anymore))))))
+                                           :mod (a / anymore)
+                                           :polarity -)))
+            :polarity -))
 
 # ::id 1125
 # ::snt But you will sit a little closer to me , every day ... "
@@ -1681,7 +1752,8 @@
    :op2 (j / jump-03
            :ARG0 i
            :direction (a2 / about))
-   :time (d / date-entity)
+   :time (d / date-entity
+            :time "16:00")
    :time (a3 / already))
 
 # ::id 1134
@@ -1773,7 +1845,8 @@
 (s / say-01
    :ARG0 (s2 / switchman)
    :ARG1 (o / one
-            :ARG1-of (s3 / same-01)
+            :ARG1-of (s3 / same-01
+                         :polarity -)
             :domain (t / this)))
 
 # ::id 1193
@@ -1783,7 +1856,8 @@
             :mod (l / little))
    :ARG1 (s / satisfy-01
             :ARG1 (t / they)
-            :location-of t)
+            :location-of t
+            :polarity -)
    :polarity (a2 / amr-unknown))
 
 # ::id 1201
@@ -1814,7 +1888,8 @@
    :ARG1 (f / feel-01
             :ARG0 y
             :ARG1 (n2 / need-01
-                      :ARG0 y)))
+                      :ARG0 y)
+            :polarity -))
 
 # ::id 1209
 # ::snt " Because they save a tremendous amount of time , " said the merchant .
@@ -1824,14 +1899,16 @@
    :op1 (d / do-02
            :ARG0 (i / i)
            :ARG1 (a2 / amr-unknown)
-           :ARG2 (t / temporal-quantity)))
+           :ARG2 (t / temporal-quantity
+                    :quant 53)))
 
 # ::id 1223
 # ::snt He did not follow my reasoning , and he answered me : " It is a good thing to have had a friend , even if one is about to die .
 (a / and
    :op1 (f / follow-02
            :ARG0 (h / he)
-           :ARG1 (r / reason-01))
+           :ARG1 (r / reason-01)
+           :polarity -)
    :op2 (a2 / answer-01
             :ARG0 h
             :ARG2 (g / good-02)))
@@ -1933,7 +2010,8 @@
 # ::snt " They do not find it , "
 (f / find-01
    :ARG0 (t / they)
-   :ARG1 (i / it))
+   :ARG1 (i / it)
+   :polarity -)
 
 # ::id 1319
 # ::snt " You know - - a muzzle for my sheep ...
@@ -1972,7 +2050,8 @@
 # ::snt " You are not fair , little prince , "
 (f / fair-01
    :ARG0 (p / prince
-            :mod (l / little)))
+            :mod (l / little))
+   :polarity -)
 
 # ::id 1330
 # ::snt " Oh , that will be all right , " he said , " children understand . "
@@ -2030,7 +2109,8 @@
 # ::snt But I was not reassured .
 (h / have-concession-91
    :ARG1 (r / reassure-01
-            :ARG1 (i / i)))
+            :ARG1 (i / i)
+            :polarity -))
 
 # ::id 1356
 # ::snt One runs the risk of weeping a little , if one lets himself be tamed ...
@@ -2106,7 +2186,8 @@
    :ARG1 (m / make-01
             :ARG0 (h / he)
             :ARG1 (a / answer-01
-                     :ARG0 h))
+                     :ARG0 h
+                     :polarity -))
    :ARG2 (a2 / add-01
              :ARG0 h
              :ARG1 (r / return-01
@@ -2183,7 +2264,8 @@
 (a / and
    :op2 (p2 / prince
             :mod (l2 / little)
-            :mod (d / dear)))
+            :mod (d / dear))
+   :mode expressive)
 
 # ::id 1444
 # ::snt For others , who are scholars , they are problems .
@@ -2210,7 +2292,8 @@
 # ::snt He said to me merely : " Ah !
 (s / say-01
    :ARG0 (h / he)
-   :ARG1 (a / ah)
+   :ARG1 (a / ah
+            :mode expressive)
    :ARG2 (i / i)
    :manner (m / mere))
 
@@ -2240,7 +2323,8 @@
 # ::snt There is nothing sad about old shells ... "
 (s / sad-02
    :ARG0 (s2 / shell
-             :mod (o / old)))
+             :mod (o / old))
+   :polarity -)
 
 # ::id 1497
 # ::snt But he made one more effort : " You know , it will be very nice .
@@ -2248,7 +2332,8 @@
    :ARG2 (e / effort-01
             :ARG0 (h / he)
             :ARG1 (n / nice-01)
-            :mod (m2 / more)))
+            :mod (m2 / more
+                     :quant 1)))
 
 # ::id 1499
 # ::snt All the stars will be wells with a rusty pulley .
@@ -2291,7 +2376,8 @@
 # ::snt It was not such a heavy body ... and at night I love to listen to the stars .
 (a / and
    :op1 (b / body
-           :mod (h / heavy))
+           :mod (h / heavy
+                   :polarity -))
    :op2 (l / love-01
            :ARG0 (i / i)
            :ARG1 (l2 / listen-01
@@ -2308,7 +2394,8 @@
            :ARG0 (s / sheep)
            :time (d / date-entity)
            :manner (s3 / sound-02
-                       :ARG1 s))
+                       :ARG1 s
+                       :polarity -))
    :time (d2 / date-entity
              :dayperiod (e2 / evening)
              :mod (s2 / some)))
@@ -2326,7 +2413,8 @@
 (l / look-01
    :ARG0 (y / you)
    :ARG1 (s / sky)
-   :direction (u / up))
+   :direction (u / up)
+   :mode imperative)
 
 # ::id 1548
 # ::snt Has the sheep eaten the flower ?
@@ -2357,5 +2445,7 @@
 (c / comfort-01
    :ARG0 (y / you)
    :ARG1 (i / i)
-   :condition (t / this))
+   :condition (t / this)
+   :polite +
+   :mode imperative)
 
