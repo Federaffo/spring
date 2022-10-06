@@ -6,12 +6,10 @@ from graphtheory.connectivity.connected import SimpleDFS
 import random
 
 import sys
-c = 0
 random.seed(42)
 
 
-def cut(s, snt, mydepth):
-
+def cut(s, snt, sid, mydepth):
     gp = _decode(s)
 
     n = len(gp.instances())
@@ -32,25 +30,32 @@ def cut(s, snt, mydepth):
     instances = [i for i in gp.instances() if i[0] not in nodes_remove]
     edges = [e for e in gp.edges() if e[0] not in nodes_remove and e[2]
              not in nodes_remove]
+
+    att = [a for a in gp.attributes() if a[0] not in nodes_remove]
+
     # print(len(edges))
     #[print(e) for e in edges]
-    triples = [*instances, *edges]
+    triples = [*instances, *edges, *att]
+
     gp = GraphPen(triples)
     # print(_encode(gp))
     if(random.random() < 0.66):
         o = open("train.txt", "a")
+        o.write("# ::id " + str(sid) + "\n")
         o.write(snt)
         o.write(_encode(gp))
         o.write("\n\n")
         o.close()
     elif(random.random() < 0.5):
         o = open("dev.txt", "a")
+        o.write("# ::id " + str(sid) + "\n")
         o.write(snt)
         o.write(_encode(gp))
         o.write("\n\n")
         o.close()
     else:
         o = open("test.txt", "a")
+        o.write("# ::id " + str(sid) + "\n")
         o.write(snt)
         o.write(_encode(gp))
         o.write("\n\n")
@@ -61,6 +66,7 @@ f = open("amr.txt", "r")
 s = ""
 snt = ""
 err = 0
+sid = 0
 for x in f:
     #   print(x)
     if "::snt" in x:
@@ -69,12 +75,13 @@ for x in f:
         s = s+x
     else:
         try:
-            cut(s, snt, 3)
+            cut(s, snt, sid, 3)
         except:
             print("err")
             err += 1
         s = ""
         snt = ""
+        sid += 1
 
 print(err)
 
