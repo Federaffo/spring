@@ -9,7 +9,24 @@ import sys
 random.seed(42)
 
 
-def cut(s, snt, sid, mydepth):
+TRAIN_PATH = "train.txt"
+DEV_PATH = "dev.txt"
+TEST_PATH = "test.txt"
+
+MAX_DEPTH = 2
+
+
+def printInto(fileName, sid, sentence, gp):
+    with open(fileName, 'a') as o:
+        graph = _encode(gp)
+        o.write("# ::id " + str(sid) + "\n")
+        o.write(sentence)
+        o.write(graph)
+        o.write("\n\n")
+        o.close()
+
+
+def cut(s, snt, sid, max_depth):
     gp = _decode(s)
 
     n = len(gp.instances())
@@ -18,11 +35,13 @@ def cut(s, snt, sid, mydepth):
     for a, _, b in gp.edges():
         g.add_edge(edge=Edge(a, b))
 
+    # DFS on
     dfs = SimpleDFS(g)
     nodes_remove = []
 
+    # Find node to remove from graph
     def appendorder(node, depth):
-        if depth >= int(mydepth):
+        if depth >= int(max_depth):
             nodes_remove.append(node)
 
     dfs.run(source=None, pre_action=appendorder)
@@ -33,56 +52,45 @@ def cut(s, snt, sid, mydepth):
 
     att = [a for a in gp.attributes() if a[0] not in nodes_remove]
 
-    # print(len(edges))
-    #[print(e) for e in edges]
     triples = [*instances, *edges, *att]
 
+    # Create a new graph
     gp = GraphPen(triples)
-    # print(_encode(gp))
-    if(random.random() < 0.66):
-        o = open("train.txt", "a")
-        o.write("# ::id " + str(sid) + "\n")
-        o.write(snt)
-        o.write(_encode(gp))
-        o.write("\n\n")
-        o.close()
-    elif(random.random() < 0.5):
-        o = open("dev.txt", "a")
-        o.write("# ::id " + str(sid) + "\n")
-        o.write(snt)
-        o.write(_encode(gp))
-        o.write("\n\n")
-        o.close()
+
+    # Print the cutted AMR
+    if (random.random() < 0.66):
+        printInto(TRAIN_PATH, sid, snt, gp)
+
+    elif (random.random() < 0.5):
+        printInto(DEV_PATH, sid, snt, gp)
+
     else:
-        o = open("test.txt", "a")
-        o.write("# ::id " + str(sid) + "\n")
-        o.write(snt)
-        o.write(_encode(gp))
-        o.write("\n\n")
-        o.close()
+        printInto(TEST_PATH, sid, snt, gp)
 
 
 f = open("amr.txt", "r")
-s = ""
-snt = ""
-err = 0
+string = ""
+sentence = ""
 sid = 0
-for x in f:
+totalError = 0
+for line in f:
     #   print(x)
-    if "::snt" in x:
-        snt = x
-    if(x != "\n"):
-        s = s+x
+    if "::snt" in line:
+        sentence = line
+    if (line != "\n"):
+        string = string+line
     else:
         try:
-            cut(s, snt, sid, 3)
+            cut(string, sentence, sid, MAX_DEPTH)
         except:
+            totalError += 1
             print("err")
-            err += 1
-        s = ""
-        snt = ""
+
+        string = ""
+        sentence = ""
         sid += 1
 
-print(err)
+print(totalError)
+
 
 # %%
